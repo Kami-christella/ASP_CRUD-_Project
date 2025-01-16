@@ -1,0 +1,181 @@
+﻿@page
+@model TaskForceApp.Pages.ExpenseTracker.IndexModel
+@{
+}
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<body>
+    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+   
+
+    <script>
+        function filterInTable() {
+            var input, filter, table, tr, td, i, j, value;
+            input = document.getElementById("search");
+            filter = input.value.toLowerCase();
+            table = document.getElementById("dataTable");
+            tr = table.getElementsByTagName("tr");
+
+            for (i = 1; i < tr.length; i++) {
+                tr[i].style.display = "none";
+                td = tr[i].getElementsByTagName("td");
+                for (j = 0; j < td.length; j++) {
+                    if (td[j]) {
+                        value = td[j].textContent || td[j].innerText;
+                        if (value.toLowerCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                            break;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        //graph
+
+        //var item in Model.ListAll
+
+     
+
+       
+
+        var totalIncome = @ViewData["TotalIncome"];
+        var totalExpense = @ViewData["TotalExpense"];
+        var remaining = @ViewData["remaining"];
+
+
+        var xValues = ["Income", "Expense", "remaining"];
+        var barColors = ["green", "red","yellow"];
+
+
+        var yValues = [totalIncome, totalExpense, remaining];
+
+
+        new Chart("myChart", {
+            type: "bar",
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                }]
+            },
+            options: {
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: "Income And Expense"
+                }
+            }
+        });
+    </script>
+
+
+    <br />
+    <h2>Income Details</h2>
+
+    <a class="btn btn-primary btn-sm" href="/ExpenseTracker/AddIncome">New Income</a>
+    <a class="btn btn-dark" href="javascript:window.print()">Print</a>
+    </br>
+    </br>
+    <div class="row">
+        <div class="col-md-6">
+            <form class="d-flex" method="get" action="/Account/SearchIncome">
+                <input name="searchString" onkeyup="filterInTable()" id="search" class="form-control me-1" placeholder="Search" aria-label="Search" />
+                <!--button class="btn btn-dark" type="submit">Search</button-->
+            </form>
+
+        </div>
+    </div>
+
+    <table class="table" id="dataTable">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Income Amount</th>
+                <th>Account</th>
+
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ListIncome)
+            {
+                <tr>
+
+                    <td>@item.description</td>
+                    <td>@item.income</td>
+                    <td>@item.account</td>
+
+
+                    <td>
+                        <a href="/ExpenseTracker/Edit?ID=@item.ID"><i class="bi bi-pencil"></i></a>
+
+                        <a class="btn btn-danger btn-sm" href="/ExpenseTracker/DeleteIncome?ID=@item.ID">Delete</a>
+                    </td>
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+
+    <h2>Expenses Details</h2>
+
+
+    <a class="btn btn-primary btn-sm" href="/ExpenseTracker/AddExpense">New Expense</a>
+    <a class="btn btn-secondary btn-sm" href="javascript:window.print()">Print</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Expense Amount</th>
+                <th>Account</th>
+
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ListExpense)
+            {
+                <tr>
+
+
+                    <td>@item.description</td>
+                    <td>@item.expense</td>
+                    <td>@item.account</td>
+
+
+                    <td>
+                        <a href="/ExpenseTracker/Edit?ID=@item.ID"><i class="bi bi-pencil"></i></a>
+
+                        <a class="btn btn-danger btn-sm" href="/ExpenseTracker/DeleteIncome?ID=@item.ID">Delete</a>
+                    </td>
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+
+    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</body>
+</html>
+
+<!--graph-->
+<!--html>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+   <body>
+
+       <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+       <script>
+
+
+       </script>
+   </body>
+   </html>-->

@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kami\\source\\repos\\TaskForceApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D354876F-B90B-44CF-9E67-1BE3ACDF490A}|TaskForceApp\\TaskForceApp.csproj|c:\\users\\kami\\source\\repos\\taskforceapp\\taskforceapp\\pages\\expensetracker\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D354876F-B90B-44CF-9E67-1BE3ACDF490A}|TaskForceApp\\TaskForceApp.csproj|solutionrelative:taskforceapp\\pages\\expensetracker\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D354876F-B90B-44CF-9E67-1BE3ACDF490A}|TaskForceApp\\TaskForceApp.csproj|c:\\users\\kami\\source\\repos\\taskforceapp\\taskforceapp\\pages\\expensetracker\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D354876F-B90B-44CF-9E67-1BE3ACDF490A}|TaskForceApp\\TaskForceApp.csproj|solutionrelative:taskforceapp\\pages\\expensetracker\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D354876F-B90B-44CF-9E67-1BE3ACDF490A}|TaskForceApp\\TaskForceApp.csproj|c:\\users\\kami\\source\\repos\\taskforceapp\\taskforceapp\\pages\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D354876F-B90B-44CF-9E67-1BE3ACDF490A}|TaskForceApp\\TaskForceApp.csproj|solutionrelative:taskforceapp\\pages\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D354876F-B90B-44CF-9E67-1BE3ACDF490A}|TaskForceApp\\TaskForceApp.csproj|c:\\users\\kami\\source\\repos\\taskforceapp\\taskforceapp\\pages\\dashboard\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D354876F-B90B-44CF-9E67-1BE3ACDF490A}|TaskForceApp\\TaskForceApp.csproj|solutionrelative:taskforceapp\\pages\\dashboard\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D354876F-B90B-44CF-9E67-1BE3ACDF490A}|TaskForceApp\\TaskForceApp.csproj|c:\\users\\kami\\source\\repos\\taskforceapp\\taskforceapp\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D354876F-B90B-44CF-9E67-1BE3ACDF490A}|TaskForceApp\\TaskForceApp.csproj|solutionrelative:taskforceapp\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D354876F-B90B-44CF-9E67-1BE3ACDF490A}|TaskForceApp\\TaskForceApp.csproj|c:\\users\\kami\\source\\repos\\taskforceapp\\taskforceapp\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D354876F-B90B-44CF-9E67-1BE3ACDF490A}|TaskForceApp\\TaskForceApp.csproj|solutionrelative:taskforceapp\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Kami\\source\\repos\\TaskForceApp\\TaskForceApp\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "TaskForceApp\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Kami\\source\\repos\\TaskForceApp\\TaskForceApp\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "TaskForceApp\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T14:54:55.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kami\\source\\repos\\TaskForceApp\\TaskForceApp\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "TaskForceApp\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Kami\\source\\repos\\TaskForceApp\\TaskForceApp\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "TaskForceApp\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T14:54:31.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Kami\\source\\repos\\TaskForceApp\\TaskForceApp\\Pages\\Dashboard\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "TaskForceApp\\Pages\\Dashboard\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Kami\\source\\repos\\TaskForceApp\\TaskForceApp\\Pages\\Dashboard\\Index.cshtml.cs",
+              "RelativeToolTip": "TaskForceApp\\Pages\\Dashboard\\Index.cshtml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T14:46:52.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kami\\source\\repos\\TaskForceApp\\TaskForceApp\\Pages\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaskForceApp\\Pages\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kami\\source\\repos\\TaskForceApp\\TaskForceApp\\Pages\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "TaskForceApp\\Pages\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T14:03:54.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Kami\\source\\repos\\TaskForceApp\\TaskForceApp\\Pages\\ExpenseTracker\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "TaskForceApp\\Pages\\ExpenseTracker\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Kami\\source\\repos\\TaskForceApp\\TaskForceApp\\Pages\\ExpenseTracker\\Index.cshtml.cs",
+              "RelativeToolTip": "TaskForceApp\\Pages\\ExpenseTracker\\Index.cshtml.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAEYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T19:15:56.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kami\\source\\repos\\TaskForceApp\\TaskForceApp\\Pages\\ExpenseTracker\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaskForceApp\\Pages\\ExpenseTracker\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kami\\source\\repos\\TaskForceApp\\TaskForceApp\\Pages\\ExpenseTracker\\Index.cshtml",
+              "RelativeToolTip": "TaskForceApp\\Pages\\ExpenseTracker\\Index.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T19:01:59.956Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
